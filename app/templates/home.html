@@ -1,0 +1,27 @@
+<!doctype html>
+
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Fibonacci numbers</title>
+  </head>
+
+  <body>
+    <h1>Enter Fibonacci number</h1>
+    <form action="#" method="post">
+        <p>
+		<input type="number" name="index">
+	</p>
+	<p>
+		<input type="submit" value="go">
+	</p>	
+	{% if message %}
+        	<p>{{ message }}</p>
+    	{% endif %}
+
+    </form>
+	
+
+  </body>
+</html>
